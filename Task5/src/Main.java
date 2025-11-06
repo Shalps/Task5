@@ -6,7 +6,7 @@ public class Main {
         Book book1 = new Book("Робинзон Крузо", 1719, new Author("Даниель", "Дефо", 3), 256);
 
         book1.isBag();
-        System.out.println();
+        
         book1.matches("Крузо");
 
         System.out.println("Цена книги: " + book1.estimatePrice()+ " рублей.");
