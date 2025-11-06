@@ -15,7 +15,7 @@ public class Book {
     public void isBag() {
         if (pages > 500) {
             System.out.println("В этой книге больше 500 страниц.");
-        } else System.out.println("В этой книше меньше 500 страниц.");
+        } else System.out.println("В этой книге меньше 500 страниц.");
     }
 
     public void matches(String word) {
@@ -38,3 +38,4 @@ public class Book {
 
 
 }
+
